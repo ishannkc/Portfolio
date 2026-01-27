@@ -129,7 +129,7 @@ export const experiences: Experience[] = [
     achievements: [
       'Engineered secure biometric authentication system with FastAPI backend and optimized RESTful API endpoints reducing authentication time by 40%',
       'Implemented real-time user verification using WebSocket communication between Python backend and React Native mobile application',
-      'Designed scalable API architecture supporting 1000+ concurrent users with ML integration for biometric data processing',
+      'Designed scalable API architecture supporting 50+ concurrent users with ML integration for biometric data processing',
       'Built cross-platform mobile application using React Native and TypeScript for seamless iOS and Android experience',
       'Learned the importance of teamwork and timely submissions while working under tight 48-hour hackathon deadlines',
     ],
