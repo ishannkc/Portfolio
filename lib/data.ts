@@ -23,7 +23,7 @@ export const personalInfo: PersonalInfo = {
   github: 'https://github.com/ishannkc',
   tagline: 'Building scalable web applications and AI-powered solutions',
   resumeUrl: '/resume.pdf',
-  profileImage: '/images/placeholder-profile.png',
+  profileImage: '/images/profile.jpg',
 };
 
 // ============================================
@@ -174,9 +174,9 @@ export const projects: Project[] = [
       'Tailwind CSS',
       'React.js',
     ],
-    liveUrl: '#',
-    codeUrl: '#',
-    image: '/images/project-intervia.png',
+    liveUrl: 'https://intervia-xi.vercel.app/',
+    codeUrl: 'https://github.com/ishannkc/Intervia',
+    image: '/images/intervia-pp.png',
   },
   {
     id: 'proj-2',
@@ -200,9 +200,9 @@ export const projects: Project[] = [
       'CSS',
       'REST APIs',
     ],
-    liveUrl: '#',
-    codeUrl: '#',
-    image: '/images/project-classroom.png',
+    liveUrl: 'https://classrestrack.netlify.app/',
+    codeUrl: 'https://github.com/ishannkc/Classroom-Resource-Tracker',
+    image: '/images/csr-pp.png',
   },
   {
     id: 'proj-3',
@@ -225,9 +225,9 @@ export const projects: Project[] = [
       'TypeScript',
       'Machine Learning',
     ],
-    liveUrl: '#',
-    codeUrl: '#',
-    image: '/images/project-ppgauth.png',
+    liveUrl: '',
+    codeUrl: 'https://github.com/ishannkc/PPGAuth',
+    image: '/images/ppg-auth-pp.png',
   },
 ];
 

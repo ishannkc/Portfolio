@@ -237,7 +237,7 @@ export default function Hero() {
                   src={personalInfo.profileImage}
                   alt={personalInfo.name}
                   fill
-                  className="object-cover"
+                  className="object-cover object-[center_60%]"
                   priority
                   sizes="(max-width: 768px) 256px, 320px"
                 />

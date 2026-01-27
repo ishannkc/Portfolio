@@ -94,7 +94,7 @@ const jsonLd = {
   },
   sameAs: [
     'https://www.linkedin.com/in/ishan-kc',
-    'https://github.com/ishankc',
+    'https://github.com/ishannkc',
   ],
   alumniOf: {
     '@type': 'CollegeOrUniversity',
