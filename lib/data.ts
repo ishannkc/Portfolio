@@ -22,7 +22,7 @@ export const personalInfo: PersonalInfo = {
   linkedin: 'https://www.linkedin.com/in/ishan-kc-bb3380285/',
   github: 'https://github.com/ishannkc',
   tagline: 'Building scalable web applications and AI-powered solutions',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/certifications/Ishan Kc(resume).pdf',
   profileImage: '/images/profile.jpg',
 };
 
@@ -238,26 +238,26 @@ export const certifications: Certification[] = [
   {
     id: 'cert-1',
     title: 'AWS Solutions Architecture Job Simulation',
-    issuer: 'Amazon Web Services',
-    date: '2024',
+    issuer: 'Amazon Web Services (via Forage)',
+    date: 'December 2025',
     icon: 'aws',
-    credentialUrl: '#',
+    credentialUrl: '/certifications/AWS.pdf',
   },
   {
     id: 'cert-2',
-    title: 'Deloitte Australia Cyber Job Simulation',
-    issuer: 'Deloitte',
-    date: '2024',
+    title: 'Deloitte Cyber Job Simulation',
+    issuer: 'Deloitte (via Forage)',
+    date: 'December 2025',
     icon: 'deloitte',
-    credentialUrl: '#',
+    credentialUrl: '/certifications/Deloitte.pdf',
   },
   {
     id: 'cert-3',
-    title: 'KU HackFest 2025 Participant',
-    issuer: 'Kathmandu University',
+    title: 'KU HackFest 2025 – Team Aneyamit',
+    issuer: 'Kathmandu University Computer Club (KUCC)',
     date: 'December 2025',
     icon: 'certificate',
-    credentialUrl: '#',
+    credentialUrl: '/certifications/Hackfest-2025.pdf',
   },
 ];
 

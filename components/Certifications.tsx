@@ -127,8 +127,7 @@ export default function Certifications() {
                 {cert.credentialUrl && (
                   <motion.a
                     href={cert.credentialUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    download
                     className="inline-flex items-center gap-2 text-sm font-medium text-primary-500 hover:text-primary-600 transition-colors"
                     whileHover={{ x: 3 }}
                   >
