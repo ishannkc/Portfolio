@@ -104,7 +104,9 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href={`tel:${personalInfo.phone.replace(/[^0-9+]/g, '')}`}
+                  href={`https://wa.me/${personalInfo.phone.replace(/[^0-9]/g, '')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-primary-500 transition-colors"
                 >
                   {personalInfo.phone}
