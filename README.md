@@ -69,7 +69,7 @@ npm install
 npm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view the site.
+Visit <a href="ishankc.vercel.app" target="_blank" rel="noopener noreferrer">ishankc.vercel.app</a> to view the site.
 
 ## 📝 Available Scripts
 
@@ -85,8 +85,8 @@ npm run lint     # Run ESLint
 Feel free to reach out to me:
 
 - **Email:** ishankc777@gmail.com
-- **LinkedIn:** [https://www.linkedin.com/in/ishan-kc-bb3380285/](https://www.linkedin.com/in/ishan-kc-bb3380285)
-- **GitHub:** [github.com/ishannkc](https://github.com/ishannkc)
+- **LinkedIn:** <a href="https://www.linkedin.com/in/ishan-kc-bb3380285/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ishan-kc-bb3380285</a>
+- **GitHub:** <a href="https://github.com/ishannkc" target="_blank" rel="noopener noreferrer">github.com/ishannkc</a>
 
 ---
 
