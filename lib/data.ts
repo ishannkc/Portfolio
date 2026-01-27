@@ -263,10 +263,10 @@ export const certifications: Certification[] = [
 
 // ============================================
 // EMAILJS CONFIGURATION
-// Replace these with your actual EmailJS credentials
+// Credentials are stored in .env file
 // ============================================
 export const emailjsConfig = {
-  serviceId: 'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-  templateId: 'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
-  publicKey: 'YOUR_PUBLIC_KEY', // Replace with your EmailJS public key
+  serviceId: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
+  templateId: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+  publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '',
 };
