@@ -214,7 +214,7 @@ export const projects: Project[] = [
     features: [
       'Engineered secure biometric authentication with FastAPI reducing authentication time by 40%',
       'Implemented real-time WebSocket communication for instant user verification',
-      'Designed scalable API architecture supporting 1000+ concurrent users',
+      'Designed scalable API architecture supporting 50+ concurrent users',
       'Built cross-platform mobile app with React Native for iOS and Android',
     ],
     techStack: [
