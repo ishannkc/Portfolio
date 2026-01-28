@@ -141,7 +141,7 @@ export default function Projects() {
                 </div>
 
                 {/* Description */}
-                <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-2">
+                <p className={`text-gray-600 dark:text-gray-400 text-sm mb-4 ${expandedProject === project.id ? '' : 'line-clamp-2'}`}>
                   {project.description}
                 </p>
 
@@ -341,7 +341,7 @@ export default function Projects() {
                       </div>
 
                       {/* Description */}
-                      <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-2">
+                      <p className={`text-gray-600 dark:text-gray-400 text-sm mb-4 ${expandedProject === project.id ? '' : 'line-clamp-2'}`}>
                         {project.description}
                       </p>
 
