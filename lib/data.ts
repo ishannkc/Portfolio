@@ -232,6 +232,49 @@ export const projects: Project[] = [
 ];
 
 // ============================================
+// ADDITIONAL PROJECTS SECTION (Loaded on demand)
+// ============================================
+export const additionalProjects: Project[] = [
+  {
+    id: 'proj-4',
+    title: 'Random Password Generator',
+    date: 'November 2025',
+    status: 'Live',
+    description:
+      'A simple tool to quickly generate strong and secure passwords. It creates two different random passwords with different combinations for better security.',
+    features: [
+      'Generates Two Passwords – Each one unique and randomized',
+      'Adjustable Length – Choose how long your password should be (maximum 15 characters)',
+      'Instant Generation – Get new passwords with a single click',
+      'Custom Type – Generate password by including or excluding Characters/Numbers/Symbols',
+      'Copy-to-Click Function – Instantly copy a password with one click',
+    ],
+    techStack: ['HTML', 'CSS', 'JavaScript'],
+    liveUrl: 'https://password-generator-phi-ashen-62.vercel.app/',
+    codeUrl: 'https://github.com/ishannkc/Password-Generator',
+    image: '/images/random-pw-pp.png',
+  },
+  {
+    id: 'proj-5',
+    title: 'Who Takes the Penalty?',
+    date: 'December 2025',
+    status: 'Live',
+    description:
+      'A fun web-based troll UI where the "Me" button dodges the cursor, forcing users to choose Ronaldo for a crucial penalty.',
+    features: [
+      'Hover over Me → the button jumps to another position',
+      'Try again → it jumps again',
+      'Click Ronaldo → Used the Fetch API to dynamically load random quotes from a JSON file.',
+      'Both buttons disappear after the correct choice',
+    ],
+    techStack: ['HTML', 'CSS', 'JavaScript'],
+    liveUrl: 'https://who-takes-the-penalty.vercel.app/',
+    codeUrl: 'https://github.com/ishannkc/Who-Takes-the-Penalty',
+    image: '/images/wtp-pp.png',
+  },
+];
+
+// ============================================
 // CERTIFICATIONS SECTION
 // ============================================
 export const certifications: Certification[] = [
