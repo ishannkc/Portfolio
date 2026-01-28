@@ -53,12 +53,6 @@ export const aboutParagraphs: AboutParagraph[] = [
   {
     text: "Hey there! I'm Ishan, a 3rd-year Computer Science student at Kathmandu University, set to graduate in November 2027. What started as curiosity about how websites work has evolved into a genuine passion for building things that make a difference. When I'm not attending lectures, you'll find me deep in code, turning ideas into functional applications that solve real problems.",
   },
-  {
-    text: "I specialize in the MERN stack and modern web technologies, but what really excites me is the intersection of AI and web development. From building Intervia—an AI-powered interview platform with voice interactions—to engineering a biometric authentication system that won at KU HackFest 2025, I love tackling challenges that push the boundaries of what's possible. I've also gained practical experience through professional simulations with AWS and Deloitte, giving me exposure to enterprise-level thinking and cloud architectures.",
-  },
-  {
-    text: "I believe in learning by doing. Every project teaches me something new, every bug makes me a better debugger, and every deployment brings its own set of lessons. Whether it's optimizing database queries to reduce response times by 35% or implementing real-time WebSocket communication for instant user verification, I'm always looking for ways to make things faster, more secure, and more user-friendly. If you're looking for someone who's passionate about code, eager to learn, and ready to contribute—let's connect!",
-  },
 ];
 
 // ============================================
